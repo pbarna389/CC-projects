@@ -1,0 +1,36 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(22, 57, 32, 0.793);
+  color: white;
+  width: 100vw;
+  height: 10%;
+}
+
+header li {
+  width: 5%;
+  list-style: none;
+}
+
+header li a {
+  font-size: 1.2rem;
+  color: white;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  text-decoration: none;
+}
+
+header li a:hover {
+  font-size: 1.3rem;
+}
+
+header li a:active {
+  text-shadow: 1px 1px white;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: rgba(22, 57, 32, 0.793);
+  color: white;
+
+  width: 100vw;
+  height: 10%;
+
+  li {
+    width: 5%;
+    list-style: none;
+
+    a {
+      font-size: 1.2rem;
+      color: white;
+      transition: all 0.25s linear;
+      text-decoration: none;
+
+      &:hover {
+        font-size: 1.3rem;
+      }
+      &:active {
+        text-shadow: 1px 1px rgb(255, 255, 255);
+      }
+    }
+  }
+}

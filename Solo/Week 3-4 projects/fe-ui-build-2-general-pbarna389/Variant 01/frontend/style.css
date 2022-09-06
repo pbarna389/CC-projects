@@ -1,0 +1,101 @@
+* {
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #4343f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* basic patterns */
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  margin-top: min(2vh, 20px);
+}
+
+.bottom {
+  margin-bottom: min(2vh, 20px);
+}
+
+.left-side {
+  margin-left: min(2vh, 20px);
+}
+
+.right-side {
+  margin-right: min(2vh, 20px);
+}
+
+.circle {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.middle {
+  width: 240px;
+  height: 360px;
+  background: none;
+  border: none;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "circle01 circle02 circle04"
+    "circle01 button circle04"
+    "circle01 button circle04"
+    "circle01 button circle04"
+    "circle01 button circle04"
+    "circle01 circle03 circle04";
+
+  gap: 20px;
+
+  margin: 0 auto;
+  padding: 0;
+
+  /* min-width: 50%;
+  max-width: 75%; */
+  height: 100vh;
+}
+
+/* the grid containers */
+
+.first {
+  grid-area: circle01;
+  justify-content: flex-start;
+}
+
+.second {
+  grid-area: circle02;
+  align-items: flex-start;
+}
+
+.third {
+  grid-area: circle03;
+  align-items: flex-end;
+}
+
+.fourth {
+  grid-area: circle04;
+  justify-content: flex-end;
+}
+
+.fifth {
+  grid-area: button;
+}

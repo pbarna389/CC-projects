@@ -1,0 +1,51 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #f4f4ff;
+}
+
+.intro {
+  * {
+    text-align: center;
+    margin: 24px;
+  }
+
+  p:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+.image {
+  img {
+    width: 650px;
+  }
+}
+
+.copyright {
+  * {
+    text-align: center;
+    margin: 20px;
+  }
+}

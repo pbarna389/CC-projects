@@ -1,0 +1,353 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  --width: 120px;
+  --height: 120px;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  box-sizing: border-box;
+  padding: 35px 0;
+
+  border: 1px solid black;
+
+  width: min(60vw, 95%);
+
+  margin-bottom: 50px;
+}
+
+section > h2 {
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+
+  width: 100%;
+}
+
+/* #root > section > div > div:nth-child(even) {
+  background-color: green;
+  color: bisque;
+}
+
+#root > section > div > div:nth-child(odd) {
+  background-color: black;
+  color: whitesmoke;
+} */
+
+.cards {
+  position: relative;
+
+  text-align: center;
+  border-radius: 10%;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid rgb(162, 161, 161);
+}
+
+.cards-inner {
+  position: absolute;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  perspective: 1000px;
+}
+
+.cards-front,
+.cards-back {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cards-back {
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-front > time {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.weekends {
+  color: red;
+}
+
+.cards:nth-child(even) .cards-inner .cards-back {
+  transform: rotateY(180deg);
+}
+
+.cards:nth-child(odd) .cards-inner .cards-back {
+  transform: rotateX(180deg);
+}
+
+.cards:nth-child(even) .cards-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.cards:nth-child(odd) .cards-inner.flipped {
+  transform: rotateX(180deg);
+}
+
+#January > div {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#February > div {
+  justify-content: center;
+  align-items: center;
+}
+
+#March > div {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#April > div {
+  justify-content: space-evenly;
+}
+
+#May > div {
+  justify-content: space-between;
+}
+
+#June > div {
+  display: grid;
+  grid:
+    var(--width) var(--width) var(--width) var(--width) var(--width) var(
+      --width
+    )
+    /
+    var(--height) var(--height) var(--height) var(--height) var(--width) var(
+      --width
+    )
+    var(--width);
+}
+
+#July > div {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 150px);
+
+  justify-items: center;
+  align-items: center;
+}
+
+#August > div .cards {
+  width: auto;
+  height: auto;
+}
+
+#August > div {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 150px);
+  gap: 0;
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+#September > div > .cards.number01 {
+  grid-area: day-01;
+}
+
+#September > div > .cards.number02 {
+  grid-area: day-02;
+}
+
+#September > div > .cards.number03 {
+  grid-area: day-03;
+}
+
+#September > div > .cards.number04 {
+  grid-area: day-04;
+}
+
+#September > div > .cards.number05 {
+  grid-area: day-05;
+}
+
+#September > div > .cards.number06 {
+  grid-area: day-06;
+}
+
+#September > div > .cards.number07 {
+  grid-area: day-07;
+}
+
+#September > div > .cards.number08 {
+  grid-area: day-08;
+}
+
+#September > div > .cards.number09 {
+  grid-area: day-09;
+}
+
+#September > div > .cards.number010 {
+  grid-area: day-10;
+}
+
+#September > div > .cards.number011 {
+  grid-area: day-11;
+}
+
+#September > div > .cards.number012 {
+  grid-area: day-12;
+}
+
+#September > div > .cards.number013 {
+  grid-area: day-13;
+}
+
+#September > div > .cards.number014 {
+  grid-area: day-14;
+}
+
+#September > div > .cards.number015 {
+  grid-area: day-15;
+}
+
+#September > div > .cards.number016 {
+  grid-area: day-16;
+}
+
+#September > div > .cards.number017 {
+  grid-area: day-17;
+}
+
+#September > div > .cards.number018 {
+  grid-area: day-18;
+}
+
+#September > div > .cards.number019 {
+  grid-area: day-19;
+}
+
+#September > div > .cards.number020 {
+  grid-area: day-20;
+}
+
+#September > div > .cards.number021 {
+  grid-area: day-21;
+}
+
+#September > div > .cards.number022 {
+  grid-area: day-22;
+}
+
+#September > div > .cards.number023 {
+  grid-area: day-23;
+}
+
+#September > div > .cards.number024 {
+  grid-area: day-24;
+}
+
+#September > div > .cards.number025 {
+  grid-area: day-25;
+}
+
+#September > div > .cards.number026 {
+  grid-area: day-26;
+}
+
+#September > div > .cards.number027 {
+  grid-area: day-27;
+}
+
+#September > div > .cards.number028 {
+  grid-area: day-28;
+}
+
+#September > div > .cards.number029 {
+  grid-area: day-29;
+}
+
+#September > div > .cards.number030 {
+  grid-area: day-30;
+}
+
+#September > div .cards {
+  width: auto;
+  height: auto;
+}
+
+#September > div {
+  display: grid;
+  grid-template:
+    [row1-start] ". . . day-01 day-02 day-03 day-04" 120px [row1-end]
+    [row2-start] "day-05 day-06 day-07 day-08 day-09 day-10 day-11" 120px [row2-end]
+    [row3-start] "day-12 day-13 day-14 day-15 day-16 day-17 day-18" 120px [row3-end]
+    [row4-start] "day-19 day-20 day-21 day-22 day-23 day-24 day-25" 120px [row4-end]
+    [row5-start] "day-26 day-27 day-28 day-29 day-30 . ." 120px [row5-end]
+    / 120px 120px 120px 120px 120px 120px 120px;
+}
+
+#October > div {
+  display: grid;
+  justify-items: start;
+}
+
+#November > div {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(5, 150px);
+  justify-items: center;
+}
+
+#December > div {
+  display: block;
+}
+
+#December > time {
+  text-align: center;
+}
+
+#December .cards {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* .flipCardY {
+  transform: rotateY(180deg);
+}
+
+.flipCardX {
+  transform: rotateX(180deg);
+}
+
+.even {
+  transform: rotateY(180deg);
+}
+
+.odd {
+  transform: rotateX(180deg);
+} */ ;

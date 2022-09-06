@@ -1,0 +1,44 @@
+* {
+  --fonts: 20px;
+}
+
+.App {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+  margin: 0px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  min-width: 400px;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.todo,
+form {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: var(--fonts);
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+form > input {
+  width: 100%;
+  font-size: var(--fonts);
+}
+
+.todo > div > button {
+  margin-right: 10px;
+}
+
+.todo > div > button:last-child {
+  margin-right: 0px;
+}

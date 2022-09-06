@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "wash car",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "title": "get money for car",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "title": "save the world",
+      "isCompleted": true
+    },
+    {
+      "id": 4,
+      "title": "learn something",
+      "isCompleted": true
+    },
+    {
+      "id": 5,
+      "title": "destroy humanity",
+      "isCompleted": true
+    }
+  ]
+}

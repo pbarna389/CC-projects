@@ -1,0 +1,71 @@
+.swiper {
+  width: 600px;
+  height: 600px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 600px;
+  height: 600px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.deletePicture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: none;
+
+  border: none;
+}
+
+.deletePicture::before,
+.deletePicture::after {
+  position: absolute;
+  content: "";
+  width: 38px;
+  height: 4px;
+  background-color: white;
+  z-index: 9999;
+}
+
+.deletePicture::before,
+.deletePicture::after {
+  top: 22.5px;
+  left: 5px;
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+
+.deletePicture::after {
+  transform: rotate(45deg);
+}
