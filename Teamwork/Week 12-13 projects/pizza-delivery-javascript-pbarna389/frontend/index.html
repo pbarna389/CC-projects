@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pizza House</title>
+    <script src="/public/script.js" ></script>
+
+    <link rel="stylesheet" href="/public/reset.css" />
+    <link rel="stylesheet" href="/public/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&family=Overpass:wght@400;500;700&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+      <div class="wrap">
+        <header>
+          <nav id="mobile">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="mobile-menu">
+              <li><a  href="#">Welcome</a></li>
+              <li><a  href="#">Our menu</a></li>
+              <li><a  href="#">About</a></li>
+              <li><a  href="#">Story</a></li>
+              <li><a  href="#">Contact</a></li>
+            </ul>
+            </div>
+            <h1 class="show-image hide-text"><a href="#">Pizza house for you</a></h1>
+            <a href="#" class="cart">Cart</a>
+          </nav>
+          <nav id="desktop">
+            <ul>
+              <li><a  href="#">Welcome</a></li>
+              <li><a  href="#">Our menu</a></li>
+              <li><a  href="#">About</a></li>
+              <li><h1 class="show-image hide-text"><a href="#">Pizza house for you</a></h1></li>
+              <li><a  href="#">Story</a></li>
+              <li><a  href="#">Contact</a></li>
+              <li><a  href="#" class="cart">Cart</a></li>
+            </ul>
+          </nav>
+          <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <h2 class="slider-title">Pepperoni</h2>
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide4"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <h2 class="slider-title">Delicious</h2>
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <h2 class="slider-title">Handmade</h2>
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <h2 class="slider-title">Italian</h2>
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1"
+                   class="carousel__next">Go to first slide</a>
+              </li> 
+            </ol>
+        </header>
+        <section id="cards">
+          <div class="card-wrapper">
+            <div class="card1"><h2>2 PIZZAS FOR 1 PRICE</h2><button>More</button></div>
+            <div class="card2"><h2>KITCHEN TOUR</h2><button>More</button></div>
+            <div class="card3"><h2>FREE COFFEES FOR 3 PIZZAS</h2><button>More</button></div>
+            <div class="card4"><h2>FOLLOW US</h2><button>More</button></div>
+            <div class="card5"><h2>WHY CHOOSE US</h2><button>More</button></div>
+          </div>
+        </section>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "creditentials": {
+            "userName": "Josh",
+            "password": "sarah4life"
+        },
+        "favourited": []
+    },
+    {
+        "creditentials": {
+            "userName": "Todd",
+            "password": "buySkyrimAgainThx"
+        },
+        "favourited": []
+    },
+    {
+        "creditentials": {
+            "userName": "Alan",
+            "password": "Hello"
+        },
+        "favourited": []
+    },
+    {
+        "creditentials": {
+            "userName": "vakondmester",
+            "password": "1234"
+        },
+        "favourited": []
+    },
+    {
+        "creditentials": {
+            "userName": "sunyivakond",
+            "password": "sunyi"
+        },
+        "favourited": []
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "pizzaName": "Pepperoni",
+        "pizzaIngr": "Smoked chicken, Mozzarella, Pepperoni",
+        "pizzaAmount": "1",
+        "price": "16 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizzaImgs/pizza007.png"
+    },
+    {
+        "null": "on",
+        "name": "Géza Molnár",
+        "city": "Szeged",
+        "zip": "6720",
+        "street": "Oskola utca",
+        "houseNum": "23",
+        "phone": "0036301234567",
+        "email": "example@example.org",
+        "status": "Delivered",
+        "fileName": "gázamolnárOrder0036301234567.json"
+    }
+]

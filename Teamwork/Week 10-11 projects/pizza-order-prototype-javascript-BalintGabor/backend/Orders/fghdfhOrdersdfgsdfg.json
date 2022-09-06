@@ -1,0 +1,26 @@
+[
+  {
+    "pizzaName": "Marinara",
+    "pizzaIngr": "Tomatoes, Olive oil, Oregano, Garlic",
+    "pizzaAmount": "1",
+    "price": "12 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza5.png"
+  },
+  {
+    "pizzaName": "Diavola",
+    "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza6.png"
+  },
+  {
+    "null": "on",
+    "name": "fghdfh",
+    "city": "fgghsdgdgs",
+    "zip": "sdfgsdgsd",
+    "street": "sdfgsdfg",
+    "houseNum": "sdfgsdg",
+    "phone": "sdfgsdfg",
+    "email": "example@example.org"
+  }
+]

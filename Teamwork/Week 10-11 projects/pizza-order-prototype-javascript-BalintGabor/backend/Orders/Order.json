@@ -1,0 +1,40 @@
+[
+  {
+    "pizzaName": "Treviso",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Bell pepper, Cremini mushrooms",
+    "pizzaAmount": "1",
+    "price": "18 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza7.png"
+  },
+  {
+    "pizzaName": "Diavola",
+    "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza6.png"
+  },
+  {
+    "pizzaName": "Pepperoni",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Pepperoni",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza8.png"
+  },
+  {
+    "pizzaName": "Pepperoni",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Pepperoni",
+    "pizzaAmount": "5",
+    "price": "80 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza8.png"
+  },
+  {
+    "null": "on",
+    "name": "",
+    "city": "",
+    "zip": "",
+    "street": "",
+    "houseNum": "",
+    "phone": "",
+    "email": "example@example.org"
+  }
+]

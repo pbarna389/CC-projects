@@ -1,0 +1,60 @@
+.artwork-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    width: 65%;
+    
+    margin-left: 32%;
+    gap: 10%;
+
+    p {
+        margin: 0;
+        margin-bottom: 25px;
+        align-self: flex-start;
+        text-align: start;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        &:first-child{
+            h4 {
+                margin-top: 25px;
+            }
+        & p:last-child{
+            align-self: center;
+        }
+        }
+
+        img {
+            margin: 0 auto;
+            height: 50%;
+            width: 50%;
+        }
+    }
+
+    h4 {
+
+        font-style: italic;
+        font-weight: 600;
+        margin-bottom: 2.5%;
+        align-self: flex-start;
+
+        &::after {
+            content:"";
+
+        }
+
+    }
+}
+
+.fa-heart-crack, .fa-heart-circle-check {
+    height: 50px;
+    color: red
+}
+
+.favButtons {
+    z-index: 999;
+}

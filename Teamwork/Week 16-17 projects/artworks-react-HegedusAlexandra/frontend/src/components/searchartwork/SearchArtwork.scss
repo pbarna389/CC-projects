@@ -1,0 +1,42 @@
+.artwork-wrapper {
+    .placeholderWrapper{
+        .Placeholder{
+            font-size: 0.8rem;
+            font-weight: 700;
+            top: 10%;
+            left: 30%;
+            width: 400px;
+            height: 400px;
+
+
+        }
+    }
+}
+
+.placeholderWrapper {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    img {
+        width: inherit;
+        height: inherit;
+        filter: blur(7px);
+    }
+    .Placeholder{
+        position: absolute;
+        top: 30%;
+        right: -35%;
+        width: inherit;
+        height: inherit;
+
+
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 30px;
+
+        color: white;
+        text-transform: uppercase;
+        
+        transform: rotate(-45deg);
+    }
+}

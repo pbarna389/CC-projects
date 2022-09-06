@@ -1,0 +1,72 @@
+.artwork-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 65%;
+  margin-left: 32%;
+  gap: 10%;
+}
+
+.artwork-wrapper p {
+  margin: 0;
+  margin-bottom: 25px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: start;
+}
+
+.artwork-wrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5%;
+}
+
+.artwork-wrapper div:first-child h4 {
+  margin-top: 25px;
+}
+
+.artwork-wrapper div:first-child p:last-child {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.artwork-wrapper div img {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+}
+
+.artwork-wrapper h4 {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 2.5%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.artwork-wrapper h4::after {
+  content: "";
+}
+
+.fa-heart-crack, .fa-heart-circle-check {
+  height: 50px;
+  color: red;
+}
+
+.favButtons {
+  z-index: 999;
+}
+/*# sourceMappingURL=Artwork.css.map */

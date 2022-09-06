@@ -1,0 +1,28 @@
+[
+    {
+        "pizzaName": "Marinara",
+        "pizzaIngr": "Tomatoes, Olive oil, Oregano, Garlic",
+        "pizzaAmount": "1",
+        "price": "12 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza005.png"
+    },
+    {
+        "pizzaName": "Diavola",
+        "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+        "pizzaAmount": "1",
+        "price": "16 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza006.png"
+    },
+    {
+        "null": "on",
+        "name": "Jakab Gipsz",
+        "city": "Pécs",
+        "zip": "7621",
+        "street": "Rákóczi út",
+        "houseNum": "2",
+        "phone": "0036701234567",
+        "email": "example@example.org",
+        "status": "Cancelled",
+        "fileName": "jakabgipszbOrder0036701234567.json"
+    }
+]

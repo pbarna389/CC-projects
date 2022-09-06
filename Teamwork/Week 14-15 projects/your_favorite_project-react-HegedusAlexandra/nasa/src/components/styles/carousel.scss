@@ -1,0 +1,155 @@
+.videoImg {
+  position: relative;
+}
+
+img,
+.placeholder {
+  cursor: pointer;
+}
+.zoom {
+  overflow: hidden;
+
+  img {
+    transition: transform 0.5s ease;
+    overflow: hidden;
+  }
+}
+
+.zoom:hover {
+  overflow: hidden;
+  img {
+    transform: scale(1.2);
+    overflow: hidden;
+  }
+}
+
+.placeholder {
+  position: absolute;
+  top: 0%;
+  height: 400px;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modalWrapper {
+  position: fixed;
+  top: 3%;
+  left: -24%;
+  z-index: 9999;
+  height: 50vh;
+
+  button {
+    position: absolute;
+    bottom: -50%;
+    left: 25%;
+
+    width: 160px;
+    height: 40px;
+    background-color: #7af887;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(60, 60, 60, 0.447) 0px 54px 55px,
+      rgba(83, 82, 82, 0.12) 0px -12px 30px, rgba(86, 86, 86, 0.12) 0px 4px 6px,
+      rgba(86, 86, 86, 0.413) 0px 12px 13px,
+      rgba(190, 190, 190, 0.427) 0px -3px 5px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: larger;
+    transition: all 0.3s linear;
+  }
+
+  button:hover {
+    background-color: #fefefe;
+  }
+}
+
+.modalWrapper.modalComes {
+  .modal {
+    animation: modalComes 0.34s linear;
+  }
+
+  button {
+    animation: modalComes 0.34s linear;
+  }
+}
+
+.modalWrapper.modalGoes {
+  .modal {
+    animation: modalGoes 0.34s linear;
+  }
+  button {
+    animation: modalGoes 0.34s linear;
+  }
+}
+
+select {
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.swiper {
+  height: 60vh;
+  .swiper-button-prev {
+    color: rgba(122, 248, 135, 0.7);
+    transition: color 0.3s linear;
+    &:hover {
+      color: rgba(122, 248, 135, 1);
+    }
+  }
+
+  .swiper-button-next {
+    color: rgba(122, 248, 135, 0.7);
+    transition: color 0.3s linear;
+    &:hover {
+      color: rgba(122, 248, 135, 1);
+    }
+  }
+  .swiper-scrollbar-drag {
+    background-color: rgba(122, 248, 135, 0.6);
+    &:active {
+      background-color: rgba(122, 248, 135, 1);
+    }
+  }
+
+  .swiper-scrollbar {
+    background: rgba(93, 177, 177, 0.112);
+  }
+  animation: modalComes 0.34s linear;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(240, 255, 255, 0.112);
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  z-index: 999;
+}
+
+.loading-text {
+  text-align: center;
+  color: rgba(240, 255, 255, 0.112);
+  animation: fade 5s linear infinite;
+}
+@keyframes fade {
+  0% {
+    color: rgb(133, 132, 132);
+  }
+  50% {
+    color: rgba(0, 255, 0, 0);
+  }
+}

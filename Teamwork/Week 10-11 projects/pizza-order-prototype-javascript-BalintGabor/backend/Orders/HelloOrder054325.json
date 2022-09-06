@@ -1,0 +1,68 @@
+[
+  {
+    "pizzaName": "Marinara",
+    "pizzaIngr": "Tomatoes, Olive oil, Oregano, Garlic",
+    "pizzaAmount": "4",
+    "price": "48 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza5.png"
+  },
+  {
+    "pizzaName": "Diavola",
+    "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza6.png"
+  },
+  {
+    "pizzaName": "Treviso",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Bell pepper, Cremini mushrooms",
+    "pizzaAmount": "1",
+    "price": "18 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza7.png"
+  },
+  {
+    "pizzaName": "Pepperoni",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Pepperoni",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza8.png"
+  },
+  {
+    "pizzaName": "Margherita",
+    "pizzaIngr": "Tomatoes, Mozzarella, Basil",
+    "pizzaAmount": "3",
+    "price": "36 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza1.png"
+  },
+  {
+    "pizzaName": "Quattro Formaggi",
+    "pizzaIngr": "Tomatoes, Mozzarella, Gorgonzola, Fontina, Pecorino",
+    "pizzaAmount": "1",
+    "price": "14 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza2.png"
+  },
+  {
+    "pizzaName": "Capricciosa",
+    "pizzaIngr": "Tomatoes, Mozzarella, Coppa, Cremini mushrooms, Artichokes, Egg",
+    "pizzaAmount": "1",
+    "price": "20 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza3.png"
+  },
+  {
+    "pizzaName": "Funghi",
+    "pizzaIngr": "Tomatoes, Mozzarella, Cremini mushrooms, Porcini mushrooms",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza4.png"
+  },
+  {
+    "null": "on",
+    "name": "Hello",
+    "city": "Budapest",
+    "zip": "1054",
+    "street": "Zoltán",
+    "houseNum": "13",
+    "phone": "054325",
+    "email": "valami&gmail.com"
+  }
+]

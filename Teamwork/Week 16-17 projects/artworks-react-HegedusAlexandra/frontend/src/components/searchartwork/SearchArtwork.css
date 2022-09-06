@@ -1,0 +1,37 @@
+.artwork-wrapper .placeholderWrapper .Placeholder {
+  font-size: 0.8rem;
+  font-weight: 700;
+  top: 10%;
+  left: 30%;
+  width: 400px;
+  height: 400px;
+}
+
+.placeholderWrapper {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.placeholderWrapper img {
+  width: inherit;
+  height: inherit;
+  -webkit-filter: blur(7px);
+          filter: blur(7px);
+}
+
+.placeholderWrapper .Placeholder {
+  position: absolute;
+  top: 30%;
+  right: -35%;
+  width: inherit;
+  height: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 30px;
+  color: white;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=SearchArtwork.css.map */

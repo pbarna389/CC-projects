@@ -1,0 +1,28 @@
+[
+    {
+        "pizzaName": "Marinara",
+        "pizzaIngr": "Tomatoes, Olive oil, Oregano, Garlic",
+        "pizzaAmount": "1",
+        "price": "12 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza005.png"
+    },
+    {
+        "pizzaName": "Diavola",
+        "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+        "pizzaAmount": "1",
+        "price": "16 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza006.png"
+    },
+    {
+        "null": "on",
+        "name": "Béla Kovács",
+        "city": "Győr",
+        "zip": "9022",
+        "street": "Batthyány tér",
+        "houseNum": "8",
+        "phone": "0036201234567",
+        "email": "example@example.org",
+        "status": "New Order",
+        "fileName": "bélakovácsOrder0036201234567.json"
+    }
+]

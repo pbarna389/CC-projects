@@ -1,0 +1,33 @@
+[
+  {
+    "pizzaName": "Diavola",
+    "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+    "pizzaAmount": "3",
+    "price": "48 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza6.png"
+  },
+  {
+    "pizzaName": "Treviso",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Bell pepper, Cremini mushrooms",
+    "pizzaAmount": "1",
+    "price": "18 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza7.png"
+  },
+  {
+    "pizzaName": "Pepperoni",
+    "pizzaIngr": "Smoked chicken, Mozzarella, Pepperoni",
+    "pizzaAmount": "1",
+    "price": "16 $",
+    "picture": "http://127.0.0.1:9000/public/img/pizza8.png"
+  },
+  {
+    "null": "on",
+    "name": "Sabbatist",
+    "city": "sdfgsdfg",
+    "zip": "sdfgsdfg",
+    "street": "dfgsdfg",
+    "houseNum": "dsfgsdfg",
+    "phone": "0dsfgdsfg",
+    "email": "example@example.org"
+  }
+]

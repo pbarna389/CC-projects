@@ -1,0 +1,26 @@
+- választott alapítvány
+- alap oldala  /negatívumok/
+
+- új oldal célja - letisztult, barátságos, cuki
+
+- alap wireframe
+- fontok
+- színpaletta
+- stock fotók a kutyulikról
+
+- a mi oldalunk
+
+- munkafolyamat - fő struktúra közösen, sectionök szétosztva, egységesítés
+
+- folyamatosan kommunkikálva és segítve egymást dolgoztunk az egyes sectionökön
+
+- eszközök - flex, positioning, ikon script
+
+- levont következtetések:
+
+- nagyon hasznos volt a folyamatos kommunikáció a munka alatt
+- flexet teljes oldal felépítésére nem feltétlenül tanácsos, navbar-hoz nagyon jó
+- az oldal többi részét grid/positioning
+- media querry hasznos dolog
+- ikonok referálása nagyon király
+- githubot egyre biztonságosabban használjuk

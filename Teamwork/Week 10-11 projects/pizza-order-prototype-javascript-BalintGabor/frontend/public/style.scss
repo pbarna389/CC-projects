@@ -1,0 +1,149 @@
+* {
+  --button-background: #d46a97;
+  --pizza-background: #320519;
+  --text-color: white;
+
+  --button-font: "Oxygen", sans-serif;
+  --text-font: "Overpass", sans-serif;
+}
+
+#root {
+  background-color: #000000;
+  color: var(--text-color);
+}
+
+.menu {
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .order,
+  .all {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    width: 80%;
+
+    background-color: var(--button-background);
+    color: white;
+
+    font-family: var(--button-font);
+    font-weight: 700;
+
+    padding: 5px;
+    font-size: 1.2em;
+  }
+
+  .container {
+    height: 450px;
+    display: flex;
+    align-items: stretch;
+
+    .pizza {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+      background-color: var(--pizza-background);
+
+      font-family: var(--text-font);
+
+      width: 300px;
+      height: 100%;
+      padding: 25px 0;
+
+      h1 {
+        font-family: var(--text-font);
+      }
+
+      ul {
+        list-style-type: none;
+
+        li {
+          padding: 5px 0;
+        }
+      }
+
+      div {
+        text-align: center;
+        width: 80%;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        margin: 10px 0;
+      }
+
+      .sizes {
+        display: flex;
+        justify-content: space-around;
+
+        .size {
+          width: 50px;
+          height: 50px;
+
+          border: 1px solid var(--button-background);
+          color: var(--text-color);
+
+          font-family: var(--button-font);
+
+          border-radius: 50%;
+
+          margin: 10px;
+        }
+      }
+    }
+
+    .price {
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-between;
+
+      div {
+        margin: 0;
+      }
+
+      .amountChange {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        gap: 20px;
+
+        .amount {
+          border: 1px solid var(--button-background);
+          width: 20px;
+          height: 20px;
+
+          border-radius: 50%;
+        }
+      }
+    }
+
+    // .order {
+    //   border-top-left-radius: 15px;
+    //   border-top-right-radius: 15px;
+    //   border-bottom-left-radius: 15px;
+    //   border-bottom-right-radius: 15px;
+
+    //   width: 80%;
+
+    //   background-color: var(--button-background);
+    //   color: white;
+
+    //   font-family: var(--button-font);
+    //   font-weight: 700;
+
+    //   padding: 5px;
+    //   font-size: 1.2em;
+    // }
+  }
+}

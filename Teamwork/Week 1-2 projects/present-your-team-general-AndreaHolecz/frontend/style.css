@@ -1,0 +1,277 @@
+:root {
+    --main-color: white;
+    --main-bg-color: black;    
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: var(--main-color);
+}
+
+body {
+    background-image: url("bg-banana-large.jpg");
+    background-size: cover;
+}
+
+.main {
+display: inline-block;
+position: fixed;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+background-color: var(--main-bg-color);
+height: 65%;
+width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+nav div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav p:hover {
+    font-weight: 700;
+  }
+
+nav p a:hover {
+    color: yellow;
+}
+
+nav div p.main-page a:hover {
+    color: rgb(255, 255, 0);
+}
+
+nav div p.selected a {
+    color: var(--main-bg-color);
+}
+  
+.selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    font-weight: 700;
+
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-left-radius: 28px;
+}
+
+.selected a {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+article {
+    display: block;
+    position:fixed;
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 80%;
+
+    margin: 0;
+    padding: 0;
+}
+
+img.prof-pic {
+    display: inline-block;
+    position: fixed;
+
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    border-radius: 50%;
+}
+
+article ul {
+    display: inline-block;
+    position: fixed;
+    list-style-type: none;
+
+    left: 50%;
+
+    margin-top: 5%;
+    padding: 0;
+}
+
+article ul li h1 {
+    font-size: 290%;
+    margin: 0;
+    padding-bottom: 2%;
+}
+
+article ul li {
+    padding-bottom: 15px;
+}
+
+.intro {
+    display: block;
+    position:relative;
+
+    top: 73%;
+}
+
+article.index-article {
+    display: block;
+    position:fixed;
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 80%;
+
+    margin: 0;
+    padding: 0;
+}
+
+img.map {
+    display: block;
+    position:fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 95%;
+
+    margin: 0;
+    padding: 0;
+}
+
+img.monkey-1 {
+    display: block;
+    position: fixed;
+
+    top: 41%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+
+    width: 9%;
+
+    margin: 0;
+    padding: 0; 
+}
+
+img.monkey-1:hover {
+    content: url(monkey_barna_hover.png)
+
+}
+
+img.monkey-2 {
+    display: block;
+    position: fixed;
+
+    top: 34%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+
+    width: 11%;
+
+    margin: 0;
+    padding: 0; 
+}
+
+img.monkey-2:hover {
+    content: url(monkey_patrik_hover.png)
+
+}
+
+img.monkey-3 {
+    display: block;
+    position: fixed;
+
+    top: 44%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+
+    width: 9%;
+
+    margin: 0;
+    padding: 0; 
+}
+
+img.monkey-3:hover {
+    content: url(monkey_andi_hover.png)
+
+}
+
+img.monkey-4 {
+    display: block;
+    position: fixed;
+
+    top: 74%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+
+    width: 10%;
+
+    margin: 0;
+    padding: 0; 
+}
+
+img.monkey-4:hover {
+    content: url(monkey_gergo_hover.png)
+
+}
+
+img.banana {
+    display: block;
+    position: fixed;
+
+    top: 6%;
+    left: 95%;
+
+    transform: translate(-50%, -50%);
+
+    height: 10%;
+
+    margin: 0;
+    padding: 0;
+}
+
+img.banana:hover {
+    content: url(banana_joe_hover.png)
+}
+

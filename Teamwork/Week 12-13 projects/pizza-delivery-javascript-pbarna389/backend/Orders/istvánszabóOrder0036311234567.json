@@ -1,0 +1,63 @@
+[
+    {
+        "pizzaName": "Marinara",
+        "pizzaIngr": "Tomatoes, Olive oil, Oregano, Garlic",
+        "pizzaAmount": "4",
+        "price": "48 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza005.png"
+    },
+    {
+        "pizzaName": "Diavola",
+        "pizzaIngr": "Tomatoes, Mozzarella, Spicy salami",
+        "pizzaAmount": "1",
+        "price": "16 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza006.png"
+    },
+    {
+        "pizzaName": "Treviso",
+        "pizzaIngr": "Smoked chicken, Mozzarella, Bell pepper, Cremini mushrooms",
+        "pizzaAmount": "1",
+        "price": "18 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza007.png"
+    },
+    {
+        "pizzaName": "Margherita",
+        "pizzaIngr": "Tomatoes, Mozzarella, Basil",
+        "pizzaAmount": "3",
+        "price": "36 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza001.png"
+    },
+    {
+        "pizzaName": "Quattro Formaggi",
+        "pizzaIngr": "Tomatoes, Mozzarella, Gorgonzola, Fontina, Pecorino",
+        "pizzaAmount": "1",
+        "price": "14 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza002.png"
+    },
+    {
+        "pizzaName": "Capricciosa",
+        "pizzaIngr": "Tomatoes, Mozzarella, Coppa, Cremini mushrooms, Artichokes, Egg",
+        "pizzaAmount": "1",
+        "price": "20 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza003.png"
+    },
+    {
+        "pizzaName": "Funghi",
+        "pizzaIngr": "Tomatoes, Mozzarella, Cremini mushrooms, Porcini mushrooms",
+        "pizzaAmount": "1",
+        "price": "16 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza004.png"
+    },
+    {
+        "null": "on",
+        "name": "István Szabó",
+        "city": "Budapest",
+        "zip": "1054",
+        "street": "Zoltán utca",
+        "houseNum": "13",
+        "phone": "0036311234567",
+        "email": "valami&gmail.com",
+        "status": "On Delivery",
+        "fileName": "istvánszabóOrder0036311234567.json"
+    }
+]

@@ -1,0 +1,13 @@
+#profile{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none; 
+    color: azure;  
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size:6vh;
+    width:60%;
+    border-top: 6px solid #E6B325;    
+    margin-top: 8px;
+    margin-bottom: 40px; 
+}

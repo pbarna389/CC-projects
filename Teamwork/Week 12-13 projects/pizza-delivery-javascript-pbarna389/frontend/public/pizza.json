@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "pizza_name": "Margherita",
+    "ingredients": ["Tomatoes", "Mozzarella", "Basil"],
+    "price": 12,
+    "size": ["28", "33"],
+    "is_vegetarian": true,
+    "category": "vegetarian cheese",
+    "image_url": "pizza001.png"
+  },
+  {
+    "id": 2,
+    "pizza_name": "Quattro Formaggi",
+    "ingredients": [
+      "Tomatoes",
+      "Mozzarella",
+      "Gorgonzola",
+      "Fontina",
+      "Pecorino"
+    ],
+    "price": 14,
+    "size": ["28", "33"],
+    "is_vegetarian": true,
+    "category": "vegetarian cheese",
+    "image_url": "pizza002.png"
+  },
+  {
+    "id": 3,
+    "pizza_name": "Capricciosa",
+    "ingredients": [
+      "Tomatoes",
+      "Mozzarella",
+      "Coppa",
+      "Cremini mushrooms",
+      "Artichokes",
+      "Egg"
+    ],
+    "price": 20,
+    "size": ["28", "33"],
+    "is_vegetarian": false,
+    "category": "meat mushrooms cheese",
+    "image_url": "pizza003.png"
+  },
+  {
+    "id": 4,
+    "pizza_name": "Marinara",
+    "ingredients": ["Tomatoes", "Olive oil", "Oregano", "Garlic"],
+    "price": 12,
+    "size": ["28", "33"],
+    "is_vegetarian": true,
+    "category": "vegetarian",
+    "image_url": "pizza004.png"
+  },
+  {
+    "id": "5",
+    "pizza_name": "Diavola",
+    "ingredients": ["Tomatoes", " Mozzarella", " Spicy salami"],
+    "size": [28, 32],
+    "price": 16,
+    "is_hidden": false,
+    "category": "meat cheese",
+    "image_url": "pizza005.png"
+  },
+  {
+    "id": 6,
+    "pizza_name": "Treviso",
+    "ingredients": [
+      "Smoked chicken",
+      "Mozzarella",
+      "Bell pepper",
+      "Cremini mushrooms"
+    ],
+    "price": 18,
+    "size": ["28", "33"],
+    "is_vegetarian": false,
+    "category": "meat mushrooms cheese",
+    "image_url": "pizza006.png"
+  },
+  {
+    "id": "7",
+    "pizza_name": "Pepperoni",
+    "ingredients": ["Smoked chicken", " Mozzarella", " Pepperoni"],
+    "size": [28, 32],
+    "price": 16,
+    "is_hidden": false,
+    "category": "meat",
+    "image_url": "pizza007.png"
+  }
+]

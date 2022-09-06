@@ -1,0 +1,425 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+.main-container {
+  margin: 0;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  color: #6d6875;
+  background-color: #f5f5f5;
+}
+
+.bigbox {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 75vw;
+  min-width: 700px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  box-sizing: border-box;
+  width: 75vw;
+  min-width: 700px;
+  z-index: 999;
+  padding: 0 3em;
+}
+
+.navbar > div:nth-child(1),
+.navbar > div:nth-child(2) {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.navbar > div:nth-child(2) {
+  gap: 35px;
+}
+
+.navbar > div > button > a {
+  text-decoration: none;
+  color: #6d6875;
+}
+
+.navbar > div > button > a > p > span {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  background-color: #ffcdb2;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 15%;
+}
+
+.navbar > div > button {
+  background-color: initial;
+}
+
+.text {
+  z-index: 2;
+}
+
+.main-content {
+  background-color: rgb(255, 255, 255);
+}
+
+.article-content {
+  padding: 5em;
+}
+
+/* itt kezdődik patriké */
+
+div.welcome-section {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+
+  height: 40em;
+  padding: 10em 10%;
+
+  position: relative;
+
+  /* background-image: url(paws.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.what-doggos {
+  padding: 0;
+}
+
+.article-content-welcome > div > div > img {
+  width: 75%;
+  position: absolute;
+  top: 41%;
+  right: 10%;
+}
+
+h1#welcome-intro {
+  display: flex;
+
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+}
+
+p#welcome {
+  display: flex;
+  align-self: flex-end;
+}
+
+div#what-are-we-doing {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  position: relative;
+
+  height: 35vh;
+  width: 75vw;
+  min-width: 700px;
+  padding-bottom: 3em;
+
+  background-color: white;
+}
+
+div.what-are-we-doing {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space;
+
+  height: 35vh;
+  width: 75vw;
+
+  background-color: #ffb4a2;
+}
+
+div.just-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  min-width: 30%;
+
+  box-sizing: content-box;
+  padding: 3em;
+
+  color: white;
+}
+h1#what-are-we-doing {
+  display: flex;
+
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+}
+
+.mobile {
+  display: none;
+}
+
+p#what-are-we-doing {
+  display: flex;
+
+  text-align: right;
+}
+
+img.two-doggos {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transform: translate(0, -100%);
+  padding-bottom: 3em;
+
+  width: 35vw;
+}
+
+/* itt ér véget patriké */
+
+/*itt kezdődik Andi*/
+.cta {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.callto {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+}
+
+/* .doge1pic {
+  display: flex;
+  width: 40%;
+  background-image: url("call-to-action.jpg");
+  background-size: cover;
+  margin-top: 25px;
+} */
+
+.callto > div:first-child {
+  width: 40%;
+}
+
+section.doge1-parent {
+  position: relative;
+}
+
+img.doge1 {
+  display: flex;
+  position: absolute;
+
+  max-height: 120%;
+  max-width: 50%;
+
+  left: 100%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+
+/*itt van vége Andi*/
+
+/*itt kezdődik gergő*/
+
+div.about {
+  display: flex;
+  flex-flow: column wrap;
+}
+div.about2 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 55rem;
+
+  position: relative;
+
+  /* background-image: url("about.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom; */
+}
+
+h1.about {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+p.text2 {
+  width: 57%;
+}
+img.about {
+  display: flex;
+  width: 100%;
+  border: none;
+}
+
+.about-pic-container {
+  position: absolute;
+  top: 35%;
+}
+
+.about-pic-container > img {
+  width: 100%;
+}
+
+/*itt van vége gergő*/
+
+.up {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: none;
+}
+
+.fa-solid {
+  color: #6d6875;
+  font-size: 3em;
+}
+
+button > p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5989b;
+  color: white;
+}
+
+.contact {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+footer > div p {
+  line-height: 2rem;
+  margin: 0;
+}
+
+footer > div p.contact-info {
+  text-align: right;
+}
+
+footer > div {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 3em;
+  gap: 1em;
+}
+
+footer > div > .paws-footer {
+  align-self: flex-end;
+  width: 4.475em;
+}
+
+@media screen and (max-width: 1500px) {
+  div > div > img {
+    height: 60vh;
+    top: 35%;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  div.welcome-section {
+    height: 70vh;
+  }
+
+  div.what-are-we-doing {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 35vh;
+    width: 75vw;
+    min-width: 700px;
+
+    background-color: #ffb4a2;
+  }
+
+  p#what-are-we-doing {
+    text-align: center;
+  }
+
+  img.about-pic {
+    display: none;
+  }
+
+  img.two-doggos {
+    display: none;
+  }
+
+  .about-pic-container {
+    max-width: 100%;
+    min-width: 40%;
+  }
+
+  .callto {
+    height: 50vh;
+  }
+
+  div > div > img {
+    top: 50%;
+    right: 10%;
+  }
+
+  footer > div > .paws-footer {
+    align-self: flex-end;
+    width: 8.9em;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #about-section {
+    height: 70em;
+  }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "pizzaName": "Margherita",
+        "pizzaIngr": "Tomatoes, Mozzarella, Basil",
+        "pizzaAmount": "1",
+        "price": "12 $",
+        "picture": "http://127.0.0.1:9000/public/img/pizza001.png"
+    },
+    {
+        "null": "on",
+        "name": "Péter Kovács",
+        "city": "Miskolc",
+        "zip": "3525",
+        "street": "Jókai Mór utca",
+        "houseNum": "16",
+        "phone": "0036701234567",
+        "email": "example@example.org",
+        "status": "New Order",
+        "fileName": "péterkovácsOrder0036701234567.json"
+    }
+]

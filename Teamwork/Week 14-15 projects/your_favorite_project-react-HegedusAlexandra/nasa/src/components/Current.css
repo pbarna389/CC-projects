@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Oswald:wght@300&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+#bodybody {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 3.5%;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color: rgb(16, 16, 16);
+}
+
+.line {
+  width: 5%;
+  height: 10vh;
+}
+
+.line1 {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 0px 0px 4px 0px;
+  margin-left: 4vh;
+  margin-top: 4vh;
+
+  width: 3%;
+  height: 6vh;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 10vh;
+  padding-top: 2vh;
+  gap: 20px;
+}
+
+.line3 {
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-radius: 4px 0px 0px 0px;
+  margin-right: 4vh;
+  margin-bottom: 4vh;
+
+  width: 3%;
+  height: 6vh;
+}
+
+.line4 {
+  width: 5%;
+  height: 60vh;
+}
+
+.lineimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 30vh;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+@keyframes opacity {
+  to {
+    opacity: 1;
+  }
+}
+
+.component-wrapper {
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.scene {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 50vh;
+  height: 50vh;
+  perspective: 100rem;
+}
+
+.wrapper {
+  width: 100%;
+  /* height: 100vh; */
+  transform: rotateX(-8deg) rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.globe {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  margin: 5% auto;
+  transform-style: preserve-3d;
+  animation: spin 25s 0ms infinite linear;
+}
+.ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px;
+  border-style: dotted;
+  border-radius: 50%;
+  color: #7af887;
+  animation: opacity 0.75s forwards ease-in-out;
+  opacity: 0;
+}
+.ring:nth-child(1) {
+  transform: rotateY(4deg);
+}
+.ring:nth-child(2) {
+  transform: rotateY(30deg);
+}
+.ring:nth-child(3) {
+  transform: rotateY(56deg);
+}
+.ring:nth-child(4) {
+  transform: rotateY(82deg);
+}
+.ring:nth-child(5) {
+  transform: rotateY(108deg);
+}
+.ring:nth-child(6) {
+  transform: rotateY(134deg);
+}
+.ring:nth-child(7) {
+  transform: rotateY(160deg);
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  color: #7af887;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: xx-large;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  height: 60vh;
+  align-self: center;
+}
+
+iframe {
+  max-width: 400px;
+  max-height: 400px;
+  height: 60vh;
+  align-self: center;
+}
+
+#explanationBox {
+  position: absolute;
+  left: 5%;
+  top: 17%;
+  width: 90%;
+  height: 71.5vh;
+  background-color: rgba(240, 255, 255, 0.112);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+  gap: 10px;
+
+  padding: 30px;
+  padding-right: 130px;
+
+  color: rgba(0, 0, 0);
+  text-shadow: 2px 2px 3px rgba(107, 107, 107, 0.215);
+  line-height: 4vh;
+
+  font-size: larger;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 20%, 90% 0);
+}
+
+.line4.Animload #explanationBox {
+  animation: modalComes 0.34s linear;
+}
+
+.line4.Closeanim #explanationBox {
+  animation: modalGoes 0.34s linear;
+}
+
+img {
+  animation: modalComes 0.34s linear;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5),
+    20px 20px 20px rgba(0, 0, 0, 0.4), 30px 30px 30px rgba(0, 0, 0, 0.4);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.CloseButton {
+  width: 160px;
+  height: 40px;
+  background-color: #7af887;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(60, 60, 60, 0.447) 0px 54px 55px,
+    rgba(83, 82, 82, 0.12) 0px -12px 30px, rgba(86, 86, 86, 0.12) 0px 4px 6px,
+    rgba(86, 86, 86, 0.413) 0px 12px 13px,
+    rgba(190, 190, 190, 0.427) 0px -3px 5px;
+  columns: black;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  transition: all 0.3s linear;
+}
+
+.CloseButton:hover {
+  background-color: #fefefe;
+}
+
+#instruction {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  animation: modalComes 0.34s linear;
+}
+
+#anotherDate {
+  z-index: 9999;
+  position: relative;
+  z-index: 999;
+  width: 180px;
+  height: 40px;
+  color: #7af887;
+  background-color: black;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(60, 60, 60, 0.447) 0px 54px 55px,
+    rgba(83, 82, 82, 0.12) 0px -12px 30px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  padding: 10px;
+  animation: modalComes 0.34 linear;
+}

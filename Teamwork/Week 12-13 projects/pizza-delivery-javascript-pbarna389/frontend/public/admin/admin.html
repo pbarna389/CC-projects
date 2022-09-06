@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PH Admin Page</title>
+    <script src="admin.js"></script>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="admin.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+  </head>
+  <body>
+    <div class="loading hidden">
+      <h3>LOADING...</h3>
+    </div>
+    <div id="main">
+      <div class="modified hidden">
+        <h3>Pizza modified!</h3>
+      </div>
+      <div class="added hidden">
+        <h3>Pizza added!</h3>
+      </div>
+      <div class="removed hidden">
+        <h3>Pizza added!</h3>
+      </div>
+      <div class="menu">
+        <div class="upper-menu">
+          <h2>Pizza House</h2>
+          <img src="img/luigi.jpg" alt="Luigi" />
+        </div>
+        <div class="lower-menu">
+          <h3>Luigi Formaggi</h3>
+          <p>The Boss</p>
+          <nav>
+            <button><i class="zmdi zmdi-home zmdi-hc-2x"></i>Dashboard</button>
+            <button>
+              <i class="zmdi zmdi-sort-amount-desc zmdi-hc-2x"></i
+              ><a href="../orders/orders.html">Order List</a>
+            </button>
+            <button>
+              <i class="zmdi zmdi-receipt zmdi-hc-2x"></i>Order Details
+            </button>
+            <button>
+              <i class="zmdi zmdi-account zmdi-hc-2x"></i>Customer
+            </button>
+            <button>
+              <i
+                class="zmdi zmdi-sort-amount-asc zmdi-hc-2x zmdi-hc-rotate-270"
+              ></i
+              >Analytics
+            </button>
+            <button>
+              <i class="zmdi zmdi-comment-text-alt zmdi-hc-2x"></i>Reviews
+            </button>
+            <button><i class="zmdi zmdi-pizza zmdi-hc-2x"></i>Foods</button>
+            <button>
+              <i class="zmdi zmdi-check-all zmdi-hc-2x"></i>Food Details
+            </button>
+            <button>
+              <i class="zmdi zmdi-accounts-list zmdi-hc-2x"></i>Customer Detail
+            </button>
+            <button>
+              <i class="zmdi zmdi-calendar zmdi-hc-2x"></i>Calendar
+            </button>
+            <button><i class="zmdi zmdi-comments zmdi-hc-2x"></i>Chat</button>
+            <button>
+              <i class="zmdi zmdi-balance-wallet zmdi-hc-2x"></i>Wallet
+            </button>
+          </nav>
+        </div>
+      </div>
+      <div id="root"></div>
+    </div>
+  </body>
+</html>

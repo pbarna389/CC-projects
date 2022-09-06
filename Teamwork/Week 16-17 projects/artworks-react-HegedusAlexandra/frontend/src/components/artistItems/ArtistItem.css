@@ -1,0 +1,11 @@
+.noData {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  color: #E6B325;
+  font-size: 20px;
+  font-weight: 650;
+}
+/*# sourceMappingURL=ArtistItem.css.map */
